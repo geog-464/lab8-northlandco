@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Lab 8 - Proposal</title>
+		<link rel="icon" href="logo.ico">
+		
+		<!-- link to custom styles -->
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	</head>
+	
+	<body>
+		<ul class="navbar">
+			<li class="li-nav" id="title"><h1><a href="Proposal.html"><h1>Lab 8 HTML Project Proposal</h1></a></h1></li>
+			
+			<li class="li-nav">
+				<a href="https://www.statcan.gc.ca/en/subjects-start/crime_and_justice" target="_blank"><img id="logo" src="lab8logo.png"></a>
+			</li>
+			
+			<li class="li-nav">
+				<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank"><h3>CSS</h3></a>
+			</li>
+			
+			<li class="li-nav">
+				<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank"><h3>HTML</h3></a>
+			</li>
+			
+			<li class="li-nav">
+				<a href="https://github.com/geog-464/lab8-northlandco" target="_blank"><h3>GitHub</h3></a>
+			</li>
+			<li class="li-nav">
+				<a href="" target="_blank"><h3>Census</h3></a>
+			</li>
+
+			
+		</ul>
+		
+		<div id="mainid" class="scroller2">
+			<div id="splash-grid" class='splash-grid-container'>
+				<div id='splash-item1'>
+					<p>
+						<h2>Canadian Cities Crime Analysis Tool</h2>
+					</p>
+				</div>
+				<div id='splash-item2'>
+					
+					<ul>
+					<p>
+						<b>Researcher:</b>
+						<br>
+						<br>
+						<u><i>Project Objectives:</u></i>
+						<br>
+						This project will facilitate the research/retrieval of data, the analyses of these data, as well as visualization of the data in the form of maps. 
+						The project will retrive Canadian Census Data on various crime rate variables as per the user's choice/selections. It will then take this data, and compute tables, and other visual representation in order to compare crime rates and other variables between Canadian cities.
+					</p>
+					</ul>
+					
+				</div>
+				<div id='splash-item3'>
+					<p>
+						<b>Data Sources:</b>  
+						<br>
+						We will require various datasets in order to complete this. Spatial Data is required in order to produce visual representations, and to geolocate our areas of interest. We also require attribute data, in order to retrive crime statistics which can then be analyzed, manipulated, and interpreted through our program.
+						<br><br><br>
+						<i>Click on the Following Links to visit the Datasets:</i>
+						<br>
+						<br>
+						<a href="http://dc1.chass.utoronto.ca/census/index.html" ><h7>Canada Census Analyser</h7></a>
+							<i>Here we will be able to extract crime data <i>(and any other variables)</i> for all of Canada, and place it in our repository for later use/retrieval by the program</i>
+						<br>
+						<br>
+						<a href="https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm"><h7>Census Boundary Files</h7></a> <i>Here we will be able to retrieve various boundary files (spatial data) for Canada in the form of shapefiles. This data can be combined with the census data in order to create geo-located data for later visual representation on maps</i>
+						<br><br>
+						<a href="https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2020010-eng.htm#s3"><h7>Canadian Statistical Geospatial Explorer Hub</h7></a> <i>Here we can find more data, such as boundary files and other census data for intercensal years, as well as other resources and guides</i>
+					</p>
+				</div>
+				
+				<div id='splash-item4'>
+					<p>
+						<b> Program Function / How it Will Run:</b>
+						<br><br>
+						1) The program will first ask for the user to select their Canadian cities of interest
+						<br><br>
+						2) The program will then retrive crime data for these cities, through different variables. These variables include total crime case, total violent crime, crime rate per 100,000 people, violent crime rate per 100,000 people...etc. This retreival could be done at various scale levels (by Census Subdivisions, Dissemination Areas, Census Metropolitan Area, Census Tract...etc.)
+						<br><br>
+						3) Once the program has extracted the data for all the cities of interest, the user will then be able to choose which variables to include (from some of the variables mentioned in Step 2), in order to perform their comparisons/analyses.
+						<br><br>
+						4) The program will then take this data, and perform various comparisons between the different locations. It will be able to output tables and summary statistic comparisons. 
+						<br><br>
+						5) The program will then output various visual representations of this process. Including a map of canada showing the selected locations, and additional crime maps (choropleth) for the selected locations. 
+						<br><br><br>
+						<b><u><i>Summary</b></u></i>
+						<br>
+						This tool will allow someone to exmaine different cities in Canada, by looking at crime rate variables, and then comparing these various locations. 
+						<b>How the tool can be used:</b> In a world where Remote work is now possible, many individuals and families are seeking housing in different cities, as a result of this flexibility. With the option to work essentially anywhere, it can be hard for someone to decide where they would like to live. There are many factors to take into consideration when moving to a new city. This tool will allow them to choose various locations across Canada, and through the use of crime rate census data, they will be able to determine which cities are safest. 
+						<br><br>
+					</p>
+				</div>
+				
+			</div>
+	
+		</div>
+		
+		<footer>
+			<p>GEOG464 Concordia University - Kurt Lemay ('40100737')</p>
+		</footer>
+	
+	</body>
+</html>
